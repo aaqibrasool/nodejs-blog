@@ -1,10 +1,12 @@
 const path = require("path")
 const express = require("express")
 const mongoose = require("mongoose")
+require("dotenv").config()
 
 const userRouter = require("./routes/user")
 
 const app = express()
+
 const PORT = 8000
 
 mongoose
